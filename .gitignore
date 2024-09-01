@@ -1,0 +1,6 @@
+# Ignore local configuration files
+.clasp.json
+appsscript.json
+
+# Ignore all Git files
+.git
