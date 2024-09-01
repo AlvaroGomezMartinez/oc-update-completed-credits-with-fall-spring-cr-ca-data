@@ -1,17 +1,17 @@
 /*******************************************************************************************
  *                                                                                         *
  *               Update Completed Credits with Fall/Spring CR-CA Data 	                   *
- * 	                                                                                       *
- *       Alvaro Gomez 	                                                                   *
- * 		   Academic Technology Coach 	                                                       *
- * 		   Northside Independent School District 	                                           *
- * 		   alvaro.gomez@nisd.net	                                                           *
- * 		   +1-210-363-1577	                                                                 *
- * 	                                                                                       *
+ *                                                                                         *
+ *       Alvaro Gomez                                                                      *
+ *       Academic Technology Coach                                                         *
+ *       Northside Independent School District                                             *
+ *       alvaro.gomez@nisd.net                                                             *
+ *       +1-210-363-1577                                                                   *
+ *                                                                                         *
  * Purpose: To automate the task of copying over rows of data from one Google Sheet        *
  *          into another. Also to send out an email to the student's counselor             *
  *          letting them know their student completed a particular course.                 *
- * 	                                                                                       *
+ *                                                                                         *
  * The functions below do three things:                                                    *
  *      1. onOpen creates a User Interface in the '24-25 OC AT-RISK CR/CA DATABASE'        *
  *         Google Spreadsheet. The user interface has one option, which is to run the      *
@@ -28,13 +28,13 @@
  *                                                                                         *
  *      4. sendCounselorNotification sends an email to the student's counselor to let them *
  *         know that the student completed a course.                                       *
- * 	                                                                                       *
+ *                                                                                         *
  * File formats: The function reads the data from a sheet within a Google Spreadsheet      *
  *               and writes the specific rows to another sheet within that same            *
  *               spreadsheet.                                                              *
- * 	                                                                                       *
+ *                                                                                         *
  * Revision history: 8/27/24-Alvaro Gomez-Fixed data imports                               *
- * 	                                                                                       *
+ *                                                                                         *
 *******************************************************************************************/
 
 // Creates the menu with the options to import new students from the Fall/Spring CR-CA Data sheet or to watch the instructions video
